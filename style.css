@@ -137,7 +137,7 @@ header .wrapper {
     padding: 8px;
 }
 
-.page-nav li a.active {
+.page-nav li a.active, .page-navv li a.active {
     font-weight: 700;
     border-bottom: 2px solid white;
 }
@@ -380,12 +380,6 @@ footer .wrapper .bold {
 
     #nav-switcher:checked~.page-navv {
         display: flex;
-    }
-
-    #nav-switcher:checked .hamburger {
-        position: fixed;
-        top: 0px;
-        right: 0;
     }
 
     .page-nav li a {
